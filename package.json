@@ -1,0 +1,20 @@
+{
+  "name": "ciam-cognito-template",
+  "version": "1.0.0",
+  "description": "AWS CDK project for a modular Cognito-based CIAM solution",
+  "main": "bin/ciam-cognito-template.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.100.0",
+    "constructs": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  }
+}
